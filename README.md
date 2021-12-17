@@ -1,6 +1,5 @@
 terminfo
 ========
-[![Crates.io](https://img.shields.io/crates/v/terminfo.svg)](https://crates.io/crates/terminfo) [![Crates.io](https://img.shields.io/crates/d/terminfo.svg)](https://crates.io/crates/terminfo) ![WTFPL](http://img.shields.io/badge/license-WTFPL-blue.svg) [![Build Status](https://api.travis-ci.org/meh/rust-terminfo.svg?branch=master)](https://travis-ci.org/meh/rust-terminfo)
 
 Terminal capabilities with type-safe getters.
 
@@ -56,3 +55,13 @@ MinGW, you should depend on mingw32-terminfo.
 Unfortunately, if you're using a non-windows console on Windows (e.g. MinGW,
 Cygwin, Git Bash), you'll need to set the TERMINFO environment variable to
 point to the directory containing the terminfo database.
+
+License
+-------
+
+Licensed under either of <a href="LICENSE-APACHE">Apache License, Version
+2.0</a> or <a href="LICENSE-MIT">MIT license</a> at your option.
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in this crate by you, as defined in the Apache-2.0 license, shall
+be dual licensed as above, without any additional terms or conditions.

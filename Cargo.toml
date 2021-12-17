@@ -4,7 +4,7 @@ version = "0.7.3"
 edition = "2018"
 
 authors = ["meh. <meh@schizofreni.co>"]
-license = "WTFPL"
+license = "MIT OR Apache-2.0"
 
 description = "Terminal information."
 repository  = "https://github.com/meh/rust-terminfo"
